@@ -30,7 +30,7 @@ void myToUpper(char* pointer) {
   int i = 0;
   for (i = 0; i < 80; i++) {
     if (pointer[i] == '\0')
-      break;
+      return;
     if ((int)pointer[i] >= 97 && (int)pointer[i] <= 122)
       pointer[i] -= 32;
   }
