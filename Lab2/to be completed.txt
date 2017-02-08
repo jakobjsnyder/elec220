@@ -5,7 +5,7 @@ code done: need to check results with O scope
 2.3
 need to tune N and document
 2.4
-not started
+started. need to test and see if it works
 2.5
 not started
 
