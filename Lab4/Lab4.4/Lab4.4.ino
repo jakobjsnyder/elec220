@@ -2,6 +2,7 @@
 #include <avr/io.h>
 uint8_t frameBufferL = 0xFF;
 uint8_t frameBufferH = 0xFF;
+uint16_t adcValue = 
 void ledArray_init () {
   // write your code here to initialize the SPI peripheral
   DDRB |= 0b00101100 ; // Set SCLK ( ['), MOSI ( PB3), and Slave Select (PB2) high
